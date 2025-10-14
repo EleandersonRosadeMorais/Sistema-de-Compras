@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo">
+
+    <!-- Linha dos CheckBoxes alinhados à direita -->
+    <LinearLayout
+        android:id="@+id/linhaCheckboxes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:paddingEnd="30dp">
+
+        <CheckBox
+            android:id="@+id/chkarroz"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:background="#F5DEB3"
+            android:buttonTint="#8B7355" />
+
+        <CheckBox
+            android:id="@+id/chkleite"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginLeft="80dp"
+            android:background="#F5DEB3"
+            android:buttonTint="#8B7355" />
+
+        <CheckBox
+            android:id="@+id/chkcarne"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginLeft="80dp"
+            android:background="#F5DEB3"
+            android:buttonTint="#8B7355" />
+
+        <CheckBox
+            android:id="@+id/chkfeijao"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginLeft="80dp"
+            android:background="#F5DEB3"
+            android:buttonTint="#8B7355" />
+
+        <CheckBox
+            android:id="@+id/chkrefrigerante"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginLeft="70dp"
+            android:background="#F5DEB3"
+            android:buttonTint="#8B7355" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btntotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="#704C35"
+        android:padding="16dp"
+        android:text="Calcular Total das Compras"
+        android:textColor="#E7A553"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
