@@ -13,8 +13,11 @@ Com uma **interface moderna e intuitiva**, o app permite selecionar os produtos 
 ## 🚀 Funcionalidades
 
 ✅ **Seleção** – Selecionar os produtos
+
 ✅ **Exibição Inteligente** – Exibição em card com preço total das compras
-✅ **Interface Moderna** – Interface desenhada com altos detalhes de um mercado. 
+
+✅ **Interface Moderna** – Interface desenhada com altos detalhes de um mercado
+
 ✅ **Funcionalidade** – Funcionalidade simples, bastantado apenas selecionar e clicar no botão
 
 ---
